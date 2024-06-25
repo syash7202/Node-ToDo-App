@@ -1,19 +1,21 @@
-# node-todo-cicd
+# ToDo Node Application used for CICD
 
-Run these commands:
+Project setup :
 
+`sudo apt install nodejs -y`
 
-`sudo apt install nodejs`
-
-
-`sudo apt install npm`
-
+`sudo apt install npm -y`
 
 `npm install`
 
 `node app.js`
 
-or Run by docker compose
+or setup by Docker :
 
-test
+`docker build -t node-todo-app .`
 
+`docker run -p 8000:8000 -d todo-node-container `
+
+## Complete Setup of CICD via Jenkins can be found at:
+
+[Jenkins CICD setup for node application - click here! ]()
